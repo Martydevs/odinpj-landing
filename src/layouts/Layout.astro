@@ -1,0 +1,31 @@
+---
+import '../css/global.css'
+import Navbar from "../components/Navbar.astro";
+import Hero from '../components/Hero.astro';
+import Footer from '../components/Footer.astro';
+---
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>My Landing</title>
+  </head>
+  <body>
+    <header>
+      <Navbar />
+      <Hero />
+    </header>
+    <slot />
+    <Footer />
+  </body>
+</html>
+
+<style>
+  header {
+    background-color: #1F2937;
+  }
+</style>

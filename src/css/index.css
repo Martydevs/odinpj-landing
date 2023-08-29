@@ -1,0 +1,86 @@
+.main-content-container {
+  background-color: #fff;
+  height: 70vh;
+  width: 100%;
+}
+
+.main-content-header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #000;
+  margin: 1.8rem 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.cite-content-container {
+  height: 70vh;
+  background-color: #E5E7EB;
+}
+
+.cite-content {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+  color: #000;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.signup-container {
+  height: 50vh;
+  background-color: #fff;
+  display: grid;
+  place-content: center;
+}
+
+.signup-card {
+  width: 920px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.signup-card-button > button {
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.signup-card-button > button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.signup-card-content h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
